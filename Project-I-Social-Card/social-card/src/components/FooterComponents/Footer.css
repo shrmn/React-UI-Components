@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-top: 1rem;
+    width: 40%;
+}
+
+.footer img {
+    filter: opacity(50%);
+}

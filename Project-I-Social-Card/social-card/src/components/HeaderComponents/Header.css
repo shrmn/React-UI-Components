@@ -23,11 +23,6 @@
       font-weight: bold;
   }
 
-  .light {
-      font-weight: lighter;
-      color: lightgray;
-  }
-
   .header-content p {
       margin-bottom: 0.5rem;
   }
