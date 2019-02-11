@@ -51,3 +51,39 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* end of reset */
+
+/* begin global styles */
+
+* {
+  box-sizing: border-box;
+  outline: 1px solid red;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height:1.5;
+}
+
+.app-container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.app-content {
+  margin: 2rem 0;
+}
+
+.app-content h2 {
+  font-size:2rem;
+  font-weight:bold;  
+}
+
+.tweet-container {
+  width: 100%;
+}

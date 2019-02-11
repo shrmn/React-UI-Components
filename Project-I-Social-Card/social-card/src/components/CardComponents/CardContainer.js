@@ -4,8 +4,8 @@ import CardBanner from './CardBanner';
 import CardContent from './CardContent';
 
 function CardContainer () {
-    return (
-        <div>
+    return (        
+        <div className="card-container">            
             <CardBanner />
             <CardContent />
         </div>

@@ -6,7 +6,7 @@ import HeaderContent from './HeaderContent';
 
 function HeaderContainer () {
     return (
-        <div className="header">
+        <div className="header-container">
             <div className="header-img">
                 <ImageThumbnail />
             </div>                        

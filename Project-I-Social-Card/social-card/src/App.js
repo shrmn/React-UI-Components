@@ -5,8 +5,8 @@ import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
-    <div>
-      <div>
+    <div className="app-container">
+      <div className="app-content">
         <h3>Welcome to React Social Card!</h3>
         <p>
           Begin by exploring the `components` directory. You'll notice we have a
@@ -21,14 +21,11 @@ const App = () => {
           </strong>
         </p>
       </div>
-      <div>
+      <div className="tweet-container">
         <HeaderContainer />
-      </div>
-      <div>
         <CardContainer />
       </div>
-
-    </div>
+      </div>
   );
 };
 
