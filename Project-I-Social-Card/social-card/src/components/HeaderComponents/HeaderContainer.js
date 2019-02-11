@@ -4,7 +4,7 @@ import ImageThumbnail from './ImageThumbnail';
 import HeaderTitle from './HeaderTitle';
 import HeaderContent from './HeaderContent';
 
-function Header () {
+function HeaderContainer () {
     return (
         <div className="header">
             <div className="header-img">
@@ -18,4 +18,4 @@ function Header () {
     )
 }
 
-export default Header;
+export default HeaderContainer;

@@ -3,7 +3,7 @@ import './Card.css';
 import CardBanner from './CardBanner';
 import CardContent from './CardContent';
 
-function Card () {
+function CardContainer () {
     return (
         <div>
             <CardBanner />
@@ -12,4 +12,4 @@ function Card () {
     );
 };
 
-export default Card;
+export default CardContainer;
