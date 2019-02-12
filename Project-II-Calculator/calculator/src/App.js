@@ -1,17 +1,43 @@
 import React from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
-import NumberButtons from './components/ButtonComponents/NumberButton';
-import ActionButtons from './components/ButtonComponents/ActionButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
   return (
-    <div classNam="container">
+    <div className="container">
+
       <CalculatorDisplay />
+
       <div className="buttons">
-        <NumberButtons />
-        <ActionButtons />
-      </div>
+
+        <div className="numbers">
+
+          <ActionButton buttonStyle="number-btn long-btn" text="clear" />
+          <NumberButton buttonStyle="number-btn" text="9" />
+          <NumberButton buttonStyle="number-btn" text="8" />
+          <NumberButton buttonStyle="number-btn" text="7" />
+          <NumberButton buttonStyle="number-btn" text="6" />
+          <NumberButton buttonStyle="number-btn" text="5" />
+          <NumberButton buttonStyle="number-btn" text="4" />
+          <NumberButton buttonStyle="number-btn" text="3" />
+          <NumberButton buttonStyle="number-btn" text="2" />
+          <NumberButton buttonStyle="number-btn" text="1" />
+          <ActionButton buttonStyle="number-btn long-btn" text="0" />
+
+        </div>
+
+        <div className="operators">
+
+          <ActionButton buttonStyle="action-btn" text="÷"/>
+          <ActionButton buttonStyle="action-btn" text="x"/>
+          <ActionButton buttonStyle="action-btn" text="-"/>
+          <ActionButton buttonStyle="action-btn" text="+"/>
+          <ActionButton buttonStyle="action-btn" text="="/>
+
+        </div>
+      </div>      
     </div>
   );
 };
