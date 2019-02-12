@@ -1,11 +1,19 @@
 .number-btn {
     width: 33.33%;
     background-color: white;
+    font-size: 45px;
 }
 
 .action-btn {
     width: 100%;
+    background-color: #9e0023;
+    color: white;
+    font-size: 55px;
 }
 .long-btn {
     width: 100%;
+}
+
+.clear-btn {
+    font-size: 35px
 }
