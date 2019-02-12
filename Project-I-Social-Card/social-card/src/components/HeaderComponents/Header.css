@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .header-img {
+    padding: 1rem;
+    width: 15%;    
+  }
+
+  .header-img img {
+      width: 100%;
+  }
+
+  .header-content {
+      display: flex;
+      flex-direction: column;
+      width: 85%;
+  }
+
+  .header-content strong {
+      font-weight: bold;
+  }
+
+  .light {
+      font-weight: lighter;
+      color: lightgray;
+  }
+
+  .header-content p {
+      margin-bottom: 0.5rem;
+  }
