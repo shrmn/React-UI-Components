@@ -9,4 +9,5 @@
 
 .footer img {
     filter: opacity(50%);
+    width: 2rem;
 }
